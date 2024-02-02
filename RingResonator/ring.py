@@ -12,7 +12,7 @@ pad = 4  # padding between waveguide and edge of PML
 dpml = 2  # thickness of PML
 sxy = 2 * (r + w + pad + dpml)  # cell size
 resolution = 16 # mesh size
-
+ 
 # Create a ring waveguide by two overlapping cylinders - later objects
 # take precedence over earlier objects, so we put the outer cylinder first.
 # and the inner (air) cylinder second.
