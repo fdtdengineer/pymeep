@@ -1,0 +1,285 @@
+init-params: initializing eigensolver data
+Computing 8 bands with 1.000000e-07 tolerance.
+Working in 2 dimensions.
+Grid size is 32 x 32 x 1.
+Solving for 8 bands at a time.
+Creating Maxwell data...
+Allocating fields...
+Mesh size is 3.
+Lattice vectors:
+     (0.866025, 0.5, 0)
+     (0.866025, -0.5, 0)
+     (0, 0, 1)
+Cell volume = 0.866025
+Reciprocal lattice vectors (/ 2 pi):
+     (0.57735, 1, -0)
+     (0.57735, -1, 0)
+     (-0, 0, 1)
+Geometric objects:
+     cylinder, center = (0.166667,0.166667,0)
+          radius 0.2, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 11.7
+     cylinder, center = (-0.166667,-0.166667,0)
+          radius 0.2, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 11.7
+Geometric object tree has depth 1 and 2 object nodes (vs. 2 actual objects)
+Initializing dielectric function...
+16 k-points:
+     (0,0,0)
+     (-0.0666667,0.0666667,0)
+     (-0.133333,0.133333,0)
+     (-0.2,0.2,0)
+     (-0.266667,0.266667,0)
+     (-0.333333,0.333333,0)
+     (-0.266667,0.366667,0)
+     (-0.2,0.4,0)
+     (-0.133333,0.433333,0)
+     (-0.0666667,0.466667,0)
+     (0,0.5,0)
+     (0,0.4,0)
+     (0,0.3,0)
+     (0,0.2,0)
+     (0,0.1,0)
+     (0,0,0)
+Solving for band polarization: tm.
+Initializing fields to random numbers...
+elapsed time for initialization: 0 seconds.
+epsilon: 1-11.7, mean 4.10521, harm. mean 1.42306, 35.5469% > 1, 29.0207% "fill"
+Outputting honey-rods-3D-epsilon...
+solve_kpoint (0,0,0):
+tmfreqs:, k index, k1, k2, k3, kmag/2pi, tm band 1, tm band 2, tm band 3, tm band 4, tm band 5, tm band 6, tm band 7, tm band 8
+Solving for bands 2 to 8...
+Finished solving for bands 2 to 8 after 38 iterations.
+tmfreqs:, 1, 0, 0, 0, 0, 0, 0.371679, 0.533765, 0.534, 0.600946, 0.601097, 0.746533, 0.867537
+elapsed time for k point: 1 seconds.
+solve_kpoint (-0.0666667,0.0666667,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 13 iterations.
+tmfreqs:, 2, -0.0666667, 0.0666667, 0, 0.133333, 0.0654994, 0.365644, 0.528398, 0.534594, 0.594991, 0.606042, 0.759337, 0.856423
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.133333,0.133333,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 8 iterations.
+tmfreqs:, 3, -0.133333, 0.133333, 0, 0.266667, 0.129066, 0.348912, 0.509474, 0.538245, 0.588285, 0.617378, 0.786311, 0.839639
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.2,0.2,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 10 iterations.
+tmfreqs:, 4, -0.2, 0.2, 0, 0.4, 0.188214, 0.325032, 0.480523, 0.546869, 0.587632, 0.629111, 0.795057, 0.844685
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.266667,0.266667,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 11 iterations.
+tmfreqs:, 5, -0.266667, 0.266667, 0, 0.533333, 0.238741, 0.298343, 0.453406, 0.560013, 0.586113, 0.637179, 0.782505, 0.861945
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.333333,0.333333,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 10 iterations.
+tmfreqs:, 6, -0.333333, 0.333333, 0, 0.666667, 0.273014, 0.273075, 0.441456, 0.575726, 0.575914, 0.6399, 0.776566, 0.86071
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.266667,0.366667,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 16 iterations.
+tmfreqs:, 7, -0.266667, 0.366667, 0, 0.635959, 0.262176, 0.281761, 0.444814, 0.566027, 0.584024, 0.639268, 0.778031, 0.857909
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.2,0.4,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 11 iterations.
+tmfreqs:, 8, -0.2, 0.4, 0, 0.61101, 0.253139, 0.285434, 0.454351, 0.553283, 0.591983, 0.637493, 0.781993, 0.853824
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.133333,0.433333,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 8 iterations.
+tmfreqs:, 9, -0.133333, 0.433333, 0, 0.592546, 0.246334, 0.28601, 0.468396, 0.538199, 0.599121, 0.634924, 0.787295, 0.849204
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.0666667,0.466667,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 8 iterations.
+tmfreqs:, 10, -0.0666667, 0.466667, 0, 0.581187, 0.242101, 0.285479, 0.484921, 0.521575, 0.604539, 0.632314, 0.792133, 0.845059
+elapsed time for k point: 0 seconds.
+solve_kpoint (0,0.5,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 8 iterations.
+tmfreqs:, 11, 0, 0.5, 0, 0.57735, 0.240663, 0.285154, 0.499034, 0.507514, 0.606704, 0.631097, 0.79418, 0.84328
+elapsed time for k point: 0 seconds.
+solve_kpoint (0,0.4,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 13 iterations.
+tmfreqs:, 12, 0, 0.4, 0, 0.46188, 0.212587, 0.306243, 0.503848, 0.509491, 0.603216, 0.628732, 0.797648, 0.844815
+elapsed time for k point: 0 seconds.
+solve_kpoint (0,0.3,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 56 iterations.
+tmfreqs:, 13, 0, 0.3, 0, 0.34641, 0.165162, 0.333333, 0.515028, 0.516107, 0.595682, 0.622212, 0.798884, 0.83873
+elapsed time for k point: 1 seconds.
+solve_kpoint (0,0.2,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 10 iterations.
+tmfreqs:, 14, 0, 0.2, 0, 0.23094, 0.112346, 0.354033, 0.522858, 0.528728, 0.591563, 0.613233, 0.779273, 0.844681
+elapsed time for k point: 0 seconds.
+solve_kpoint (0,0.1,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 10 iterations.
+tmfreqs:, 15, 0, 0.1, 0, 0.11547, 0.0567913, 0.367124, 0.530447, 0.533741, 0.596363, 0.60476, 0.756381, 0.858942
+elapsed time for k point: 0 seconds.
+solve_kpoint (0,0,0):
+Solving for bands 2 to 8...
+Finished solving for bands 2 to 8 after 27 iterations.
+tmfreqs:, 16, 0, 0, 0, 0, 0, 0.371679, 0.533765, 0.534, 0.600946, 0.601097, 0.746533, 0.867537
+elapsed time for k point: 0 seconds.
+Band 1 range: 0.0 at #(0.0 0.0 0.0) to 0.27301356003773314 at #(-0.3333333333333333 0.3333333333333333 0.0)
+Band 2 range: 0.27307455017366755 at #(-0.3333333333333333 0.3333333333333333 0.0) to 0.37167944563276506 at #(0.0 0.0 0.0)
+Band 3 range: 0.44145568721106787 at #(-0.3333333333333333 0.3333333333333333 0.0) to 0.5337652928180018 at #(0.0 0.0 0.0)
+Band 4 range: 0.5075143359589774 at #(0.0 0.5 0.0) to 0.575725743509987 at #(-0.3333333333333333 0.3333333333333333 0.0)
+Band 5 range: 0.5759135758243233 at #(-0.3333333333333333 0.3333333333333333 0.0) to 0.6067035348817843 at #(0.0 0.5 0.0)
+Band 6 range: 0.6010969261393121 at #(0.0 0.0 0.0) to 0.6399004216867031 at #(-0.3333333333333333 0.3333333333333333 0.0)
+Band 7 range: 0.746532808009195 at #(0.0 0.0 0.0) to 0.7988835902371005 at #(0.0 0.30000000000000004 0.0)
+Band 8 range: 0.8387304232835524 at #(0.0 0.30000000000000004 0.0) to 0.867536848216726 at #(0.0 0.0 0.0)
+Gap from band 1 (0.27301356003773314) to band 2 (0.27307455017366755), 0.022337104505279554%
+Gap from band 2 (0.37167944563276506) to band 3 (0.44145568721106787), 17.16227445105455%
+Gap from band 4 (0.575725743509987) to band 5 (0.5759135758243233), 0.032619989815033945%
+Gap from band 6 (0.6399004216867031) to band 7 (0.746532808009195), 15.382260615014356%
+Gap from band 7 (0.7988835902371005) to band 8 (0.8387304232835524), 4.866449934778766%
+total elapsed time for run: 2 seconds.
+done.
+init-params: initializing eigensolver data
+Computing 8 bands with 1.000000e-07 tolerance.
+Working in 2 dimensions.
+Grid size is 32 x 32 x 1.
+Solving for 8 bands at a time.
+Creating Maxwell data...
+Mesh size is 3.
+Lattice vectors:
+     (0.866025, 0.5, 0)
+     (0.866025, -0.5, 0)
+     (0, 0, 1)
+Cell volume = 0.866025
+Reciprocal lattice vectors (/ 2 pi):
+     (0.57735, 1, -0)
+     (0.57735, -1, 0)
+     (-0, 0, 1)
+Geometric objects:
+     cylinder, center = (0.166667,0.166667,0)
+          radius 0.2, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 11.7
+     cylinder, center = (-0.166667,-0.166667,0)
+          radius 0.2, height 1e+20, axis (0, 0, 1)
+          dielectric constant epsilon = 11.7
+Geometric object tree has depth 1 and 2 object nodes (vs. 2 actual objects)
+Initializing dielectric function...
+16 k-points:
+     (0,0,0)
+     (-0.0666667,0.0666667,0)
+     (-0.133333,0.133333,0)
+     (-0.2,0.2,0)
+     (-0.266667,0.266667,0)
+     (-0.333333,0.333333,0)
+     (-0.266667,0.366667,0)
+     (-0.2,0.4,0)
+     (-0.133333,0.433333,0)
+     (-0.0666667,0.466667,0)
+     (0,0.5,0)
+     (0,0.4,0)
+     (0,0.3,0)
+     (0,0.2,0)
+     (0,0.1,0)
+     (0,0,0)
+Solving for band polarization: te.
+Initializing fields to random numbers...
+elapsed time for initialization: 0 seconds.
+epsilon: 1-11.7, mean 4.10521, harm. mean 1.42306, 35.5469% > 1, 29.0207% "fill"
+Outputting honey-rods-3D-epsilon...
+solve_kpoint (0,0,0):
+tefreqs:, k index, k1, k2, k3, kmag/2pi, te band 1, te band 2, te band 3, te band 4, te band 5, te band 6, te band 7, te band 8
+Solving for bands 2 to 8...
+Finished solving for bands 2 to 8 after 40 iterations.
+tefreqs:, 1, 0, 0, 0, 0, 0, 0.536452, 0.606498, 0.748488, 0.749246, 0.816293, 0.817387, 1.01225
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.0666667,0.0666667,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 14 iterations.
+tefreqs:, 2, -0.0666667, 0.0666667, 0, 0.133333, 0.102949, 0.534088, 0.602996, 0.737718, 0.739053, 0.824043, 0.827283, 0.988886
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.133333,0.133333,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 11 iterations.
+tefreqs:, 3, -0.133333, 0.133333, 0, 0.266667, 0.203926, 0.526283, 0.589084, 0.718546, 0.720194, 0.837274, 0.846659, 0.946126
+elapsed time for k point: 1 seconds.
+solve_kpoint (-0.2,0.2,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 11 iterations.
+tefreqs:, 4, -0.2, 0.2, 0, 0.4, 0.300508, 0.511925, 0.558561, 0.705204, 0.705665, 0.847433, 0.86606, 0.909657
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.266667,0.266667,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 12 iterations.
+tefreqs:, 5, -0.266667, 0.266667, 0, 0.533333, 0.389269, 0.491957, 0.513471, 0.698474, 0.70113, 0.853148, 0.875363, 0.896545
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.333333,0.333333,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 14 iterations.
+tefreqs:, 6, -0.333333, 0.333333, 0, 0.666667, 0.459332, 0.470349, 0.470443, 0.698961, 0.699041, 0.854992, 0.871839, 0.913212
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.266667,0.366667,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 20 iterations.
+tefreqs:, 7, -0.266667, 0.366667, 0, 0.635959, 0.440777, 0.460659, 0.497948, 0.697076, 0.700904, 0.854552, 0.872864, 0.902881
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.2,0.4,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 11 iterations.
+tefreqs:, 8, -0.2, 0.4, 0, 0.61101, 0.421673, 0.452378, 0.523834, 0.694493, 0.703231, 0.853392, 0.875237, 0.894933
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.133333,0.433333,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 11 iterations.
+tefreqs:, 9, -0.133333, 0.433333, 0, 0.592546, 0.406878, 0.446083, 0.543504, 0.6917, 0.705411, 0.85185, 0.877794, 0.889481
+elapsed time for k point: 0 seconds.
+solve_kpoint (-0.0666667,0.466667,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 11 iterations.
+tefreqs:, 10, -0.0666667, 0.466667, 0, 0.581187, 0.397525, 0.44215, 0.555905, 0.689453, 0.706957, 0.850513, 0.87964, 0.886397
+elapsed time for k point: 0 seconds.
+solve_kpoint (0,0.5,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 10 iterations.
+tefreqs:, 11, 0, 0.5, 0, 0.57735, 0.394323, 0.44081, 0.560169, 0.688568, 0.707517, 0.849982, 0.880309, 0.885416
+elapsed time for k point: 0 seconds.
+solve_kpoint (0,0.4,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 10 iterations.
+tefreqs:, 12, 0, 0.4, 0, 0.46188, 0.341054, 0.479696, 0.564571, 0.692868, 0.708841, 0.848156, 0.873323, 0.895382
+elapsed time for k point: 0 seconds.
+solve_kpoint (0,0.3,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 11 iterations.
+tefreqs:, 13, 0, 0.3, 0, 0.34641, 0.262131, 0.513555, 0.578429, 0.704971, 0.714415, 0.842607, 0.859094, 0.919989
+elapsed time for k point: 0 seconds.
+solve_kpoint (0,0.2,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 12 iterations.
+tefreqs:, 14, 0, 0.2, 0, 0.23094, 0.177169, 0.528582, 0.594688, 0.722374, 0.72631, 0.833438, 0.841497, 0.955914
+elapsed time for k point: 1 seconds.
+solve_kpoint (0,0.1,0):
+Solving for bands 1 to 8...
+Finished solving for bands 1 to 8 after 13 iterations.
+tefreqs:, 15, 0, 0.1, 0, 0.11547, 0.0892322, 0.53469, 0.603934, 0.74007, 0.741346, 0.822425, 0.824998, 0.993671
+elapsed time for k point: 0 seconds.
+solve_kpoint (0,0,0):
+Solving for bands 2 to 8...
+Finished solving for bands 2 to 8 after 26 iterations.
+tefreqs:, 16, 0, 0, 0, 0, 0, 0.536452, 0.606498, 0.748488, 0.749246, 0.816293, 0.817387, 1.01225
+elapsed time for k point: 0 seconds.
+Band 1 range: 0.0 at #(0.0 0.0 0.0) to 0.45933247993183995 at #(-0.3333333333333333 0.3333333333333333 0.0)
+Band 2 range: 0.44081018351495127 at #(0.0 0.5 0.0) to 0.5364518429262869 at #(0.0 0.0 0.0)
+Band 3 range: 0.47044330598383377 at #(-0.3333333333333333 0.3333333333333333 0.0) to 0.606498452798287 at #(0.0 0.0 0.0)
+Band 4 range: 0.6885682341718002 at #(0.0 0.5 0.0) to 0.7484880091737731 at #(0.0 0.0 0.0)
+Band 5 range: 0.6990408794135284 at #(-0.3333333333333333 0.3333333333333333 0.0) to 0.7492460090129589 at #(0.0 0.0 0.0)
+Band 6 range: 0.816292549943816 at #(0.0 0.0 0.0) to 0.8549920975456111 at #(-0.3333333333333333 0.3333333333333333 0.0)
+Band 7 range: 0.8173874146863297 at #(0.0 0.0 0.0) to 0.8803091767819334 at #(0.0 0.5 0.0)
+Band 8 range: 0.8854156362420615 at #(0.0 0.5 0.0) to 1.0122543031746993 at #(0.0 0.0 0.0)
+Gap from band 3 (0.606498452798287) to band 4 (0.6885682341718002), 12.674217042138908%
+Gap from band 5 (0.7492460090129589) to band 6 (0.816292549943816), 8.565300490016002%
+Gap from band 7 (0.8803091767819334) to band 8 (0.8854156362420615), 0.5783981085232354%
+total elapsed time for run: 2 seconds.
+done.

@@ -1,0 +1,1 @@
+mpirun -np 16 python ○○.py で起動
